@@ -1,0 +1,38 @@
+Compiling, may take a little while to download git dependencies...
+UPDATING GIT DEPENDENCY https://github.com/aptos-labs/aptos-framework.git
+INCLUDING DEPENDENCY AptosFramework
+INCLUDING DEPENDENCY AptosStdlib
+INCLUDING DEPENDENCY MoveStdlib
+BUILDING aptoblockc
+{
+  "Result": [
+    "82db59d76cf796f71acfc00146b947be5842cadee364ee50573c37879d743b82::SimpleNFT"    
+  ]
+}
+PS C:\Users\HP\Desktop\AptosBC> aptos move deploy
+Compiling, may take a little while to download git dependencies...
+UPDATING GIT DEPENDENCY https://github.com/aptos-labs/aptos-framework.git
+INCLUDING DEPENDENCY AptosFramework
+INCLUDING DEPENDENCY AptosStdlib
+INCLUDING DEPENDENCY MoveStdlib
+BUILDING aptoblockc
+package size 1395 bytes
+Do you want to submit a transaction for a range of [196800 - 295200] Octas at a gas unit price of 100 Octas? [yes/no] >
+yes
+Transaction submitted: https://explorer.aptoslabs.com/txn/0x836ac39551aa3399da123fd3b5b27e7ceb3935a95df61e14344c09c533a877cf?network=devnet
+{
+  "Result": {
+    "transaction_hash": "0x836ac39551aa3399da123fd3b5b27e7ceb3935a95df61e14344c09c533a877cf",
+    "gas_used": 1968,
+    "gas_unit_price": 100,
+    "sender": "82db59d76cf796f71acfc00146b947be5842cadee364ee50573c37879d743b82",
+    "sequence_number": 0,
+    "replay_protector": {
+      "SequenceNumber": 0
+    },
+    "success": true,
+    "timestamp_us": 1754650703896989,
+    "version": 27896938,
+    "vm_status": "Executed successfully"
+  }
+}

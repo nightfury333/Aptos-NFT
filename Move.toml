@@ -1,0 +1,16 @@
+[package]
+name = "aptoblockc"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule ='0x82db59d76cf796f71acfc00146b947be5842cadee364ee50573c37879d743b82'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
